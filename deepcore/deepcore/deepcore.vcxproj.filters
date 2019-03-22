@@ -1,0 +1,159 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="include">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="source">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="include\dev">
+      <UniqueIdentifier>{378468ae-8993-4f63-8fc5-8251f79c430a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\fft">
+      <UniqueIdentifier>{bd6eef44-d562-4309-bb8d-ee3213d918ac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\cuda">
+      <UniqueIdentifier>{5d05b0cf-9884-48a7-a764-86b709cdbf6c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\blas">
+      <UniqueIdentifier>{bb9e1e29-769b-40d2-b174-bde699db1d1c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\fft">
+      <UniqueIdentifier>{06751577-ca8a-4f80-a47c-776f479abaf4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\blas">
+      <UniqueIdentifier>{18919134-a744-48a2-9658-d870696ed45f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\cuda">
+      <UniqueIdentifier>{ac3321b7-a05a-4253-ba26-68c3cd4ac8b9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\dev\fftconv">
+      <UniqueIdentifier>{07c36400-e4eb-4f8a-b91c-4c94c9150606}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\dev\blas">
+      <UniqueIdentifier>{ea59388a-7a7d-4d59-a9da-36216854ac54}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\include\fft\fft.h">
+      <Filter>include\fft</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\cuda\cuda_kernel.h">
+      <Filter>include\cuda</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\cuda\cuda_platform.h">
+      <Filter>include\cuda</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\blas\cgemm.h">
+      <Filter>include\blas</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\blas\gemm.h">
+      <Filter>include\blas</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\idc_argmask.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\idc_half.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\idc_macro.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\idc_status.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\idc_tensor_shape.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\idc_string.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\dev\fftconv\kbin_sm50.h">
+      <Filter>include\dev\fftconv</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\dev\fftconv\kbin_sm52.h">
+      <Filter>include\dev\fftconv</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\dev\fftconv\kbin_sm60.h">
+      <Filter>include\dev\fftconv</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\dev\fftconv\kbin_sm61.h">
+      <Filter>include\dev\fftconv</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\idc_bop.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\dev\blas\kbin_sm50.h">
+      <Filter>include\dev\blas</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\dev\blas\kbin_sm52.h">
+      <Filter>include\dev\blas</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\dev\blas\kbin_sm60.h">
+      <Filter>include\dev\blas</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\dev\blas\kbin_sm61.h">
+      <Filter>include\dev\blas</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\fft\fft_rf.h">
+      <Filter>include\fft</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\deepcore.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\cuda\cuda_context.h">
+      <Filter>include\cuda</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\blas\blasEx.h">
+      <Filter>include\blas</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\dev\blas\kbin_sm70.h">
+      <Filter>include\dev\blas</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\dev\fftconv\kbin_sm70.h">
+      <Filter>include\dev\fftconv</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\source\fft\fft.c">
+      <Filter>source\fft</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\blas\cgemm.c">
+      <Filter>source\blas</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\blas\cgemv.c">
+      <Filter>source\blas</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\blas\flatcgemm.c">
+      <Filter>source\blas</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\blas\flatcgevv.c">
+      <Filter>source\blas</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\blas\gemm.c">
+      <Filter>source\blas</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\cuda\cuda_platform.c">
+      <Filter>source\cuda</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\deepcore.c">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\cuda\cuda_context.c">
+      <Filter>source\cuda</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\blas\blasEx.c">
+      <Filter>source\blas</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\blas\cgevv.c">
+      <Filter>source\blas</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
