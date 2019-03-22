@@ -11,7 +11,7 @@
   #elif defined(__GNUC__)
     #if __GNUC__>=4
       #define DEEPCOREAPIENTRY __attribute__((visibility("default")))
-	#else
+    #else
       #define DEEPCOREAPIENTRY
     #endif
   #else
