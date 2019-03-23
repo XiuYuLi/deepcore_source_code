@@ -4,7 +4,6 @@
 #include"../include/cuda/cuda_platform.h"
 #include"../include/conv/fftconv.h"
 #include"../include/blas/gemm.h"
-#pragma comment( lib, "cuda.lib" )
 #define as_devptr(p) (CUdeviceptr)((uintptr_t)(p))
 
 static cuda_platform_t* g_pPlat=NULL;
